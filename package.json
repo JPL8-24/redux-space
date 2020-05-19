@@ -1,8 +1,5 @@
 {
-  "name": "@lianjia/redux-zoom",
-  "publishConfig": {
-    "registry": "http://registry.npmjs.lianjia.com:7001/"
-  },
+  "name": "redux-space",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",

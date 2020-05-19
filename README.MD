@@ -6,11 +6,11 @@ import {
   combineReducers,
 } from 'redux';
 import models from './models';
-import ReduxZoom from './middlewares/redux-zoom';
+import ReduxSpace from './middlewares/redux-space';
 
-const zoom = new ReduxZoom(models);
-const resultReducers = combineReducers(zoom.reducers);
-const middlewares = [zoom.createMiddleware()];
+const space = new ReduxSpace(models);
+const resultReducers = combineReducers(space.reducers);
+const middlewares = [space.createMiddleware()];
 
 createStore(
   resultReducers,
@@ -18,7 +18,7 @@ createStore(
 );
 ```
 
-参考测试用例的使用，需要根据 models 中的文件创建 zoom 对象，再通过zoom对象创建中间件供 redux使用
+参考测试用例的使用，需要根据 models 中的文件创建 space space redux使用
 
 
 ## 实际使用
