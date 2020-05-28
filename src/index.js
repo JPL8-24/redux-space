@@ -56,9 +56,9 @@ class Zoom {
           '[app.model] namespace should be unique',
         );
       }
-
+      // 注册model
       this.registerModel(model);
-
+      // 处理每个model中的reducers，生成每个model最终的reducer并注册
       this.reducers[model.namespace] = getReducers(model.namespace, model.state, model.reducers);
     });
   }
