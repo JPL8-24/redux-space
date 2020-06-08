@@ -21,6 +21,7 @@
     "redux": "^4.0.1"
   },
   "dependencies": {
+    "core-js": "^2.6.11",
     "invariant": "^2.2.4"
   }
 }
