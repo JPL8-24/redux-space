@@ -18,8 +18,6 @@ createStore(
 );
 ```
 
-参考测试用例的使用，需要根据 models 中的文件创建 space space redux使用
-
 
 ## 实际使用
 页面中用法
